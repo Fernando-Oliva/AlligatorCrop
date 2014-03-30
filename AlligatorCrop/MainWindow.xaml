@@ -1,0 +1,11 @@
+﻿<Window x:Class="AlligatorCrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListBox HorizontalAlignment="Left" Height="154" Margin="83,10,0,0" VerticalAlignment="Top" Width="434" Name="lstFiles" SelectionMode="Multiple"/>
+        <Button HorizontalAlignment="Left" Margin="3,21,0,0" VerticalAlignment="Top" Width="75" Name="btnAddFile" Height="58" Click="btnAddFile_Click" BorderBrush="#FF707070">
+            <Image Source="Resources/addFiles.png" Stretch="Uniform"/>
+        </Button>
+    </Grid>
+</Window>
